@@ -1,0 +1,68 @@
+/* CSS */
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: #100e17;
+} 
+
+p {
+	max-width: 460px;
+	font-size: 17px;
+}
+.choices{
+	font-size:15px;
+	letter-spacing: 2px;
+}
+.container {
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+}
+
+.user-was-correct::before {
+	content: "Congratulations! You are ";
+}
+
+.user-was-correct::after {
+	content: "!";
+}
+
+.user-was-incorrect::before {
+	content: "You are ";
+}
+
+.user-was-correct {
+	font-size: 25px;
+	color: white;
+	font-weight:bold;
+	letter-spacing: 2px;
+}
+
+.user-was-incorrect {
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+button {
+	width: auto;
+	color: white;
+	border: 2px solid white;
+	font-size: 20px;
+}
+
+button:hover {
+	background-color: #6799ff;
+}
+
+
+
+
+
+
